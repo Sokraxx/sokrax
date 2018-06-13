@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 var prefix = '.';
 
-client.login('NDU1MTYwMzMwMjMwODI0OTY0.Df38tA.Ts-qMLsLTGZwIQXe_RgKYCKQU-Q');
+client.login(process.env.TOKEN);
 
 client.on("ready", () => {
     console.log("[Serenity BOT] Je suis pret !");
